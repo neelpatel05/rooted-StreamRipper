@@ -1,0 +1,20 @@
+# Nmap 7.80 scan initiated Fri Jun  5 09:04:07 2020 as: nmap -p 4444 -sV -A -oA nmap 10.0.0.246
+Nmap scan report for 10.0.0.246
+Host is up (0.0020s latency).
+
+PORT     STATE    SERVICE VERSION
+4444/tcp filtered krb524
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|specialized
+Running: Microsoft Windows XP|7|2012, VMware Player
+OS CPE: cpe:/o:microsoft:windows_xp::sp3 cpe:/o:microsoft:windows_7 cpe:/o:microsoft:windows_server_2012 cpe:/a:vmware:player
+OS details: Microsoft Windows XP SP3, Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012, VMware Player virtual NAT device
+Network Distance: 2 hops
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT     ADDRESS
+1   2.52 ms 192.168.147.2
+2   2.71 ms 10.0.0.246
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jun  5 09:04:09 2020 -- 1 IP address (1 host up) scanned in 2.18 seconds

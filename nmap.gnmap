@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Fri Jun  5 09:04:07 2020 as: nmap -p 4444 -sV -A -oA nmap 10.0.0.246
+Host: 10.0.0.246 ()	Status: Up
+Host: 10.0.0.246 ()	Ports: 4444/filtered/tcp//krb524///	OS: Microsoft Windows XP SP3|Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012|VMware Player virtual NAT device
+# Nmap done at Fri Jun  5 09:04:09 2020 -- 1 IP address (1 host up) scanned in 2.18 seconds

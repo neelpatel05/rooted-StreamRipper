@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Fri Jun  5 09:04:07 2020 as: nmap -p 4444 -sV -A -oA nmap 10.0.0.246 -->
+<nmaprun scanner="nmap" args="nmap -p 4444 -sV -A -oA nmap 10.0.0.246" start="1591362247" startstr="Fri Jun  5 09:04:07 2020" version="7.80" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="4444"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1591362248" endtime="1591362249"><status state="up" reason="echo-reply" reason_ttl="128"/>
+<address addr="10.0.0.246" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="4444"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="krb524" method="table" conf="3"/></port>
+</ports>
+<os><osmatch name="Microsoft Windows XP SP3" accuracy="100" line="84602">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="XP" accuracy="100"><cpe>cpe:/o:microsoft:windows_xp::sp3</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows XP SP3 or Windows 7 or Windows Server 2012" accuracy="100" line="84915">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="XP" accuracy="100"><cpe>cpe:/o:microsoft:windows_xp::sp3</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="100"><cpe>cpe:/o:microsoft:windows_7</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2012" accuracy="100"><cpe>cpe:/o:microsoft:windows_server_2012</cpe></osclass>
+</osmatch>
+<osmatch name="VMware Player virtual NAT device" accuracy="100" line="103933">
+<osclass type="specialized" vendor="VMware" osfamily="Player" accuracy="100"><cpe>cpe:/a:vmware:player</cpe></osclass>
+</osmatch>
+</os>
+<distance value="2"/>
+<trace proto="icmp">
+<hop ttl="1" ipaddr="192.168.147.2" rtt="2.52"/>
+<hop ttl="2" ipaddr="10.0.0.246" rtt="2.71"/>
+</trace>
+<times srtt="2032" rttvar="1083" to="100000"/>
+</host>
+<runstats><finished time="1591362249" timestr="Fri Jun  5 09:04:09 2020" elapsed="2.18" summary="Nmap done at Fri Jun  5 09:04:09 2020; 1 IP address (1 host up) scanned in 2.18 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
