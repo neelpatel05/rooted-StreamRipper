@@ -5,4 +5,4 @@ Finding offsets
 ![offsets](https://raw.githubusercontent.com/neelpatel05/rooted-StreamRipper/master/screenshots/offsets.png)
 
 Overwriting the instruction pointer (eip) with B's
-![Overwriting the instruction pointer (eip) with B's]https://raw.githubusercontent.com/neelpatel05/rooted-StreamRipper/master/screenshots/overwriting%20eip%20with%20B's.PNG)
+![Overwriting the instruction pointer (eip) with B's](https://raw.githubusercontent.com/neelpatel05/rooted-StreamRipper/master/screenshots/overwriting%20eip%20with%20B's.PNG)
